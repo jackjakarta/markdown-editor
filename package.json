@@ -17,10 +17,13 @@
   },
   "dependencies": {
     "@hookform/resolvers": "3.9.0",
+    "@mdxeditor/editor": "3.29.1",
+    "@ngneat/falso": "7.3.0",
     "@t3-oss/env-nextjs": "0.7.3",
     "bcrypt": "5.1.1",
     "clsx": "2.1.1",
     "drizzle-orm": "0.34.1",
+    "mdast-util-directive": "3.1.0",
     "next": "14.2.21",
     "next-auth": "4.24.8",
     "postgres": "3.4.4",
