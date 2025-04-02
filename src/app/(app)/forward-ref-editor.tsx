@@ -7,6 +7,8 @@ import { forwardRef } from 'react';
 
 import '@mdxeditor/editor/style.css';
 
+import styles from './styles/ui.module.css';
+
 // This is the only place InitializedMDXEditor is imported directly.
 const Editor = dynamic(() => import('./markdown-editor'), {
   // Make sure we turn SSR off
